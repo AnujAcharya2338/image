@@ -9,16 +9,57 @@
   <body>
     <script src="/assets/js/index.js"></script>
     <div class="images">
-      <img src="/assets/images/a.jpg" alt="" />
-      <img src="/assets/images/b.jpg" alt="" />
-      <img src="/assets/images/c.jpg" alt="" />
-      <img src="/assets/images/d.jpg" alt="" />
-      <img src="/assets/images/e.jpg" alt="" />
-      <img src="/assets/images/f.jpg" alt="" />
-      <img src="/assets/images/g.jpg" alt="" />
-      <img src="/assets/images/h.jpg" alt="" />
-      <img src="/assets/images/i.jpg" alt="" />
-      <img src="/assets/images/j.jpg" alt="" />
+      <div class="sideshow">
+        <div class="1">
+          <img src="assets/images/a.jpg" alt="" />
+          <div class="text">First Slide</div>
+        </div>
+        <div class="2">
+          <img src="assets/images/b.jpg" alt="" />
+          <div class="text">Second Slide</div>
+        </div>
+        <div class="3">
+          <img src="assets/images/c.jpg" alt="" />
+          <div class="text">Third Slide</div>
+        </div>
+        <div class="4">
+          <img src="assets/images/d.jpg" alt="" />
+          <div class="text">Fourth Slide</div>
+        </div>
+        <div class="5">
+          <img src="assets/images/e.jpg" alt="" />
+          <div class="text">Fifth Slide</div>
+        </div>
+        <div class="6">
+          <img src="assets/images/f.jpg" alt="" />
+          <div class="text">Sixth Slide</div>
+        </div>
+        <div class="7">
+          <img src="assets/images/g.jpg" alt="" />
+          <div class="text">Seventh Slide</div>
+        </div>
+        <div class="8">
+          <img src="assets/images/h.jpg" alt="" />
+          <div class="text">Eight Slide</div>
+        </div>
+        <div class="9">
+          <img src="assets/images/i.jpg" alt="" />
+          <div class="text">Nineth Slide</div>
+        </div>
+        <div class="10">
+          <img src="assets/images/j.jpg" alt="" />
+          <div class="text">Tenth Slide</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </div>
   </body>
 </html>
